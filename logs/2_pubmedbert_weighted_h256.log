@@ -1,0 +1,65 @@
+[2025-12-10 03:04:28] Arguments: {'model_type': 'llm_mlp', 'emb_path': 'dataset/feature_embeddings.npy', 'freeze_emb': False, 'lr': 0.0001, 'batch_size': 32, 'epochs': 50, 'hidden_dim': 1024, 'dropout': 0.2, 'seed': 42, 'device': 'cuda', 'exp_name': 'pubmedbert_weighted_h256', 'num_workers': 0}
+[2025-12-10 03:04:30] Initializing LLM Enhanced MLP with embeddings from dataset/feature_embeddings.npy...
+[2025-12-10 03:04:32] Start Training...
+[2025-12-10 03:04:34] Epoch [1/50] Train Loss: 0.3012 | Val Loss: 0.3253 | AUC: 0.9156 | F1: 0.8722
+[2025-12-10 03:04:34] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9156_lr_0.0001.pth
+[2025-12-10 03:04:35] Epoch [2/50] Train Loss: 0.2581 | Val Loss: 0.2590 | AUC: 0.8697 | F1: 0.8431
+[2025-12-10 03:04:35] Epoch [3/50] Train Loss: 0.2452 | Val Loss: 0.2271 | AUC: 0.9148 | F1: 0.8531
+[2025-12-10 03:04:35] Epoch [4/50] Train Loss: 0.2312 | Val Loss: 0.2087 | AUC: 0.9371 | F1: 0.8544
+[2025-12-10 03:04:35] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9371_lr_0.0001.pth
+[2025-12-10 03:04:35] Epoch [5/50] Train Loss: 0.2136 | Val Loss: 0.1978 | AUC: 0.9295 | F1: 0.8544
+[2025-12-10 03:04:35] Epoch [6/50] Train Loss: 0.2050 | Val Loss: 0.1904 | AUC: 0.9404 | F1: 0.8544
+[2025-12-10 03:04:35] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9404_lr_0.0001.pth
+[2025-12-10 03:04:35] Epoch [7/50] Train Loss: 0.2033 | Val Loss: 0.1858 | AUC: 0.9255 | F1: 0.8517
+[2025-12-10 03:04:35] Epoch [8/50] Train Loss: 0.2183 | Val Loss: 0.1859 | AUC: 0.9356 | F1: 0.8061
+[2025-12-10 03:04:35] Epoch [9/50] Train Loss: 0.2050 | Val Loss: 0.1785 | AUC: 0.9328 | F1: 0.8517
+[2025-12-10 03:04:35] Epoch [10/50] Train Loss: 0.2056 | Val Loss: 0.1766 | AUC: 0.9460 | F1: 0.8300
+[2025-12-10 03:04:36] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9460_lr_0.0001.pth
+[2025-12-10 03:04:36] Epoch [11/50] Train Loss: 0.2122 | Val Loss: 0.1937 | AUC: 0.9085 | F1: 0.8235
+[2025-12-10 03:04:36] Epoch [12/50] Train Loss: 0.2088 | Val Loss: 0.1712 | AUC: 0.9468 | F1: 0.8416
+[2025-12-10 03:04:36] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9468_lr_0.0001.pth
+[2025-12-10 03:04:36] Epoch [13/50] Train Loss: 0.2007 | Val Loss: 0.1786 | AUC: 0.9470 | F1: 0.8241
+[2025-12-10 03:04:36] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9470_lr_0.0001.pth
+[2025-12-10 03:04:36] Epoch [14/50] Train Loss: 0.1906 | Val Loss: 0.1647 | AUC: 0.9473 | F1: 0.8696
+[2025-12-10 03:04:36] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9473_lr_0.0001.pth
+[2025-12-10 03:04:37] Epoch [15/50] Train Loss: 0.1932 | Val Loss: 0.1680 | AUC: 0.9475 | F1: 0.8529
+[2025-12-10 03:04:37] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9475_lr_0.0001.pth
+[2025-12-10 03:04:37] Epoch [16/50] Train Loss: 0.2053 | Val Loss: 0.1639 | AUC: 0.9447 | F1: 0.8585
+[2025-12-10 03:04:37] Epoch [17/50] Train Loss: 0.2050 | Val Loss: 0.1633 | AUC: 0.9407 | F1: 0.8696
+[2025-12-10 03:04:38] Epoch [18/50] Train Loss: 0.1777 | Val Loss: 0.1606 | AUC: 0.9371 | F1: 0.8732
+[2025-12-10 03:04:38] Epoch [19/50] Train Loss: 0.1922 | Val Loss: 0.1571 | AUC: 0.9503 | F1: 0.8804
+[2025-12-10 03:04:38] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9503_lr_0.0001.pth
+[2025-12-10 03:04:38] Epoch [20/50] Train Loss: 0.1886 | Val Loss: 0.1543 | AUC: 0.9445 | F1: 0.9014
+[2025-12-10 03:04:38] Epoch [21/50] Train Loss: 0.1886 | Val Loss: 0.1675 | AUC: 0.9511 | F1: 0.8241
+[2025-12-10 03:04:38] Best model saved to checkpoints/pubmedbert_weighted_h256_best_AUC_0.9511_lr_0.0001.pth
+[2025-12-10 03:04:38] Epoch [22/50] Train Loss: 0.1838 | Val Loss: 0.1607 | AUC: 0.9447 | F1: 0.8585
+[2025-12-10 03:04:38] Epoch [23/50] Train Loss: 0.1897 | Val Loss: 0.1618 | AUC: 0.9503 | F1: 0.8358
+[2025-12-10 03:04:38] Epoch [24/50] Train Loss: 0.1990 | Val Loss: 0.1557 | AUC: 0.9412 | F1: 0.8972
+[2025-12-10 03:04:38] Epoch [25/50] Train Loss: 0.1980 | Val Loss: 0.1763 | AUC: 0.9511 | F1: 0.8000
+[2025-12-10 03:04:38] Epoch [26/50] Train Loss: 0.1967 | Val Loss: 0.1645 | AUC: 0.9351 | F1: 0.8626
+[2025-12-10 03:04:38] Epoch [27/50] Train Loss: 0.1860 | Val Loss: 0.1714 | AUC: 0.9260 | F1: 0.8406
+[2025-12-10 03:04:38] Epoch [28/50] Train Loss: 0.1975 | Val Loss: 0.1584 | AUC: 0.9468 | F1: 0.8641
+[2025-12-10 03:04:39] Epoch [29/50] Train Loss: 0.1998 | Val Loss: 0.1646 | AUC: 0.9503 | F1: 0.8300
+[2025-12-10 03:04:39] Epoch [30/50] Train Loss: 0.2006 | Val Loss: 0.1671 | AUC: 0.9394 | F1: 0.8473
+[2025-12-10 03:04:39] Epoch [31/50] Train Loss: 0.1938 | Val Loss: 0.1568 | AUC: 0.9432 | F1: 0.8696
+[2025-12-10 03:04:39] Epoch [32/50] Train Loss: 0.1785 | Val Loss: 0.1502 | AUC: 0.9440 | F1: 0.8972
+[2025-12-10 03:04:39] Epoch [33/50] Train Loss: 0.1947 | Val Loss: 0.1602 | AUC: 0.9404 | F1: 0.8641
+[2025-12-10 03:04:39] Epoch [34/50] Train Loss: 0.1863 | Val Loss: 0.1539 | AUC: 0.9432 | F1: 0.8804
+[2025-12-10 03:04:39] Epoch [35/50] Train Loss: 0.2019 | Val Loss: 0.1592 | AUC: 0.9465 | F1: 0.8585
+[2025-12-10 03:04:39] Epoch [36/50] Train Loss: 0.1804 | Val Loss: 0.1507 | AUC: 0.9445 | F1: 0.8910
+[2025-12-10 03:04:39] Epoch [37/50] Train Loss: 0.1898 | Val Loss: 0.1499 | AUC: 0.9488 | F1: 0.8857
+[2025-12-10 03:04:39] Epoch [38/50] Train Loss: 0.1917 | Val Loss: 0.1706 | AUC: 0.9163 | F1: 0.8732
+[2025-12-10 03:04:39] Epoch [39/50] Train Loss: 0.1916 | Val Loss: 0.1699 | AUC: 0.9452 | F1: 0.8182
+[2025-12-10 03:04:39] Epoch [40/50] Train Loss: 0.1934 | Val Loss: 0.1518 | AUC: 0.9445 | F1: 0.8857
+[2025-12-10 03:04:39] Epoch [41/50] Train Loss: 0.1778 | Val Loss: 0.1462 | AUC: 0.9465 | F1: 0.8962
+[2025-12-10 03:04:39] Epoch [42/50] Train Loss: 0.1931 | Val Loss: 0.1517 | AUC: 0.9399 | F1: 0.8930
+[2025-12-10 03:04:39] Epoch [43/50] Train Loss: 0.1713 | Val Loss: 0.1519 | AUC: 0.9440 | F1: 0.8804
+[2025-12-10 03:04:40] Epoch [44/50] Train Loss: 0.1791 | Val Loss: 0.1507 | AUC: 0.9404 | F1: 0.8837
+[2025-12-10 03:04:40] Epoch [45/50] Train Loss: 0.1967 | Val Loss: 0.1613 | AUC: 0.9326 | F1: 0.8626
+[2025-12-10 03:04:40] Epoch [46/50] Train Loss: 0.1752 | Val Loss: 0.1493 | AUC: 0.9450 | F1: 0.8857
+[2025-12-10 03:04:40] Epoch [47/50] Train Loss: 0.1912 | Val Loss: 0.1744 | AUC: 0.9128 | F1: 0.8837
+[2025-12-10 03:04:40] Epoch [48/50] Train Loss: 0.1908 | Val Loss: 0.1572 | AUC: 0.9470 | F1: 0.8641
+[2025-12-10 03:04:40] Epoch [49/50] Train Loss: 0.1832 | Val Loss: 0.1504 | AUC: 0.9389 | F1: 0.8940
+[2025-12-10 03:04:40] Epoch [50/50] Train Loss: 0.1840 | Val Loss: 0.1487 | AUC: 0.9402 | F1: 0.8940
+[2025-12-10 03:04:40] Training Finished. Running Test on Best Model...
+[2025-12-10 03:04:40] Test Results - AUC: 0.9148 | F1: 0.8252
